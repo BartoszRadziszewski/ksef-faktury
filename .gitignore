@@ -1,0 +1,19 @@
+# Konfiguracja lokalna — zawiera dane wrażliwe (NIP, token)
+.env
+
+# Środowisko wirtualne Python
+venv/
+.venv/
+
+# Wyniki — pliki Excel generowane przez skrypt
+*.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
